@@ -1,6 +1,6 @@
 interface:
   display_name: "客户沟通助手"
-  short_description: "跨行业分析客户聊天，整理需求、顾虑、进展与待办，准备回复并按需建档"
-  default_prompt: "使用 $customer-conversation-assistant 分析这些客户沟通记录，告诉我客户在意什么、下一步怎么跟进，并帮我写一段回复。"
+  short_description: "跨行业分析客户聊天，整理顾虑与待办，写自然得体、少些AI腔的回复并按需建档"
+  default_prompt: "使用 $customer-conversation-assistant 分析这些客户聊天，告诉我下一步怎么跟进，并写一段自然、有分寸的回复，保留真实信息和必要条件。"
 policy:
   allow_implicit_invocation: true

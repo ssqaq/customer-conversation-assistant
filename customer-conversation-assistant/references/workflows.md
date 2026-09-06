@@ -47,6 +47,50 @@
 
 回复写给客户，分析写给用户，两者分开。“资料尚缺”是内部分析结论，不把未经证实的条款塞进草稿让用户自行排雷。
 
+## 自然得体的回复
+
+只作用于写给客户的草稿，不改原始记录、档案证据或用户要求逐字引用的条款。一般分析仍保留五项；用户只要一句或只要正文时，按该要求交付。以下是判断方法，不是每次都要按顺序写出的套话模板。
+
+### 先确定谁在对谁说话
+
+从说话人、导出方和上下文确认客户、我方和第三方。客户或同事转来的记录中，“我”可能指转发者；归属无法确定且影响责任、承诺或措辞时，只确认这个信息。不要把当前助手的人设或自称带进客户草稿。
+
+以用户指定语气和已有合适样本为先。微信、即时聊天通常用1至4句自然短话；邮件可用短段落和必要称呼，技术核对、报价或多项问题可保留清单。句数只是无明确要求时的参考，不能为了凑短删掉重要问题、条件或风险。不因“去AI味”破坏正式合同、法律措辞、技术标识或真实引用。
+
+### 写得自然
+
+- 直接进入客户当前的问题。删掉不传递信息的铺垫、重复结论和夸大赞美，如无实际内容的“非常理解您的心情”“赋能您的业务”“期待携手共赢”；有具体原因的感谢或道歉可以保留，不做机械禁词替换。
+- 用对方已经使用的业务词和普通动词，说明具体事项。真实三项就保留三项，不为了避开排比硬删一项；不强加“不是X而是Y”、金句、比喻、整齐对仗、感叹号或装饰性标题。
+- 根据内容自然分句，不刻意让每句一样长，也不故意增加错别字、口头禅、方言、表情、私人经历或戏剧性情绪来扮演真人。客户原有的正式语气和礼貌称呼正常保留。
+- 报价、退款、日期和身份信息保持准确。型号、订单号、联系方式、金额、币种、单位、范围、否定与条件均是核对项，不能“润色”掉“暂定”“未批准”“预计”“不含安装”“以合同为准”等实质限制。
+
+### 说话有分寸
+
+- 客户表达不满时，回应其已经说出的具体遭遇或影响，例如催问多次、迟交、不能使用。没有表达情绪就不替对方判定“焦虑”“不信任”；正常询价直接回答，不必先安慰。
+- 有证据证明我方失误时，简短承认具体问题，接着说明当前处理状态。责任还不明确时，承接问题并澄清事实；不为显得体贴而承认未核实责任、承诺退款或推责给其他团队。
+- 不好的消息和拒绝直接说清：真实限制是什么、现有资料支持什么选择。没有折扣、替代方案或审批结果时不编。尊重客户选择，不用“为了您好”、羞辱、激将、虚假稀缺或人情压力推动决定。
+- 下一步尽量只提出当前需要的一件事；多个独立问题确实都需要答复时逐项回答。已经在材料里的信息不再反复索取。核实、查询等可作为合理建议，不能写成“已联系”“已加急”“已申请”这些并未发生的动作；新增确定期限、价格或补偿必须有依据或用户明确授权。
+- 客户要求暂停、指定联系时间或渠道时照实保留；明确不再联系时，按任务准备简短确认或内部停止跟进建议，不默认附带下次追单时间。除非已有明确记录，不写“我已在系统取消提醒”等操作完成话术。
+
+### 交付前核对
+
+先写有依据的回复，再删掉空话，最后对照输入检查：有没有漏答、加事实、改数字或条件、把计划说成已完成、把推测说成事实、忽视联系限制。确认语气和长度符合用户要求。仅凭草稿无法核实的条款另给用户说明，正文用真实可用的表达，不把危险承诺留给用户自行删改。
+
+默认只给一个可发送版本；用户明确要备选时再按不同语气给出，不默认展示初稿、逐句分析、评分或“去AI味报告”。用户明确要求评估文风时可以解释编辑依据，但不声称某个分数代表真实情商或保证通过AI检测。
+
+### 客户场景示例
+
+下列为虚构例子，只展示如何依照已给事实作答，不作为固定开场白。
+
+| 已知记录及任务 | 合适的回复示例 |
+|---|---|
+| 客户说已催三次；原定周一交付，已确认只能周三交；用户要求道歉并告知 | 这次没按约定周一交付，还让您反复催问，抱歉。现在确认的交付时间是周三。 |
+| 客户问退款是否到账；只知申请已提交、还未批准 | 目前提交的是退款申请，还没批准，暂时不能确认到账时间。 |
+| 客户问能否再便宜；报价9800元、不含安装、未授权折扣 | 目前报价是9800元，不含安装，还没有确认能给的折扣。 |
+| 用户要求委婉拒绝超范围工作；合同仅含报告，不含上线实施 | 这次合同包含报告交付，上线实施不在范围内；如果需要这部分，我们再确认具体工作和费用。 |
+| 客户明确说不再考虑、别再联系；用户要一句确认 | 收到，后续不再跟进这项采购。 |
+| 客户只问明天几点量房；原约定10:00，用户只要正文 | 明天上午10:00，按之前约定上门量房。 |
+
 ## 覆盖核对
 
 区分工具读取范围、已知事实覆盖、未知遗漏。读完不等于理解完整，输出看起来齐全也不能证明没有遗漏。
@@ -135,3 +179,41 @@
 - 给这个客户建档，把维修和新采购分成两个业务。
 - 用刚才已经保存的档案继续更新，保留这次预算调整的依据。
 - 检查这个客户目录的未完成更新，先确认当前状态再按记录恢复。
+- 把这段给客户的回复改得自然一点，少些套话，保留原来的数字、条件和事实。
+- 客户在催进度，帮我回得有分寸，别编交付时间或处理结果。
+
+## 回复方法来源与许可
+
+自然表达部分参考并改编了以下MIT项目的编辑方法；所有客户场景示例为本Skill编写。只采用适用规则，不采纳增加无依据细节、机械删词、强制营销转化或情商评分等做法。
+
+- [blader/humanizer](https://github.com/blader/humanizer/tree/9862685f575c65a8247f90369951df1b3416e3d6)：保留原意，删掉程式化铺垫，内部检查后给出最终文字。
+- [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh/tree/91f3d394db8419c20d67ebe22a96cf8fee0a404b)：中文套话、过度排比和谄媚表达的识别。
+- [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022)：使用客户自己的词、具体说明、清楚表达下一步。
+
+以下上游MIT声明保留于分发包，适用于所采用的上游指导内容：
+
+```text
+MIT License
+
+Copyright (c) 2025 Siqi Chen
+Copyright (c) 2026 歸藏
+Copyright (c) 2025 Corey Haines
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
