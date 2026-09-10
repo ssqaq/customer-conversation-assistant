@@ -1,14 +1,14 @@
 # 客户沟通助手
 
-版本：1.1.0。Skill 名称：`customer-conversation-assistant`。
+版本：1.1.1。Skill 名称：`customer-conversation-assistant`。
 
 给 Codex 提供客户聊天、文件或截图，整理客户情况、主要顾虑、当前进展、下一步待办，并准备可直接使用的回复。适用于销售、咨询、项目合作和售后等跨行业客户沟通。
 
-1.1.0 增加自然回复：少套话、回应具体问题，按微信或邮件调整语气；客户不满时把事情说清楚，保留数字、条件和真实处理状态。默认给一个可用版本，不附文风评分，也不为了显得客气编造折扣、交期或退款结果。
+1.1.1 增加“高情商”触发和明确规则：先接住具体问题，再讲事实和下一步，不靠夸赞、长篇安慰或额外承诺显得客气。保留1.1.0的自然回复：少套话、回应具体问题，按微信或邮件调整语气；保留数字、条件和真实处理状态。
 
 ## 安装
 
-1. 从 [v1.1.0 下载页](https://github.com/ssqaq/customer-conversation-assistant/releases/tag/v1.1.0) 下载 `customer-conversation-assistant-1.1.0.zip` 并解压。
+1. 从 [v1.1.1 下载页](https://github.com/ssqaq/customer-conversation-assistant/releases/tag/v1.1.1) 下载 `customer-conversation-assistant-1.1.1.zip` 并解压。
 2. 将完整的 `customer-conversation-assistant` 文件夹放入 Codex 用户级 Skill 目录：
    - Windows：`%USERPROFILE%\.codex\skills\`
    - macOS / Linux：`~/.codex/skills/`
@@ -33,7 +33,9 @@ $customer-conversation-assistant 帮我回这个客户，自然一点，有分�
 $customer-conversation-assistant 把下面这段客户回复改得少点AI味，别改价格、日期和承诺。
 ```
 
-一般文章润色和无客户背景的通用文案不套用客户分析模板。自然表达规则来源见 [来源与取舍](docs/SOURCES.md)。
+一般文章润色和无客户背景的通用文案不套用客户分析模板，也不应靠普通文章触发客户沟通 Skill。自然表达规则来源见 [来源与取舍](docs/SOURCES.md)。
+
+“高情商回复”在这里指：回应具体处境，讲清能确认的事实，给出有依据的下一步。它不等于夸赞、长篇安慰或编造优惠、退款和交期。规则回归记录见 [1.1.1 回复验证](docs/REPLY-VALIDATION-1.1.1.md)。
 
 ## 保存规则
 
@@ -48,7 +50,7 @@ $customer-conversation-assistant 把下面这段客户回复改得少点AI味，
 
 需要使用者提供当前环境能够读取的材料。此 Skill 不自带微信自动读取、WorkBuddy 连接或 OCR 服务，不承诺跨会话自动记忆。回复草稿默认交给使用者，不自动发送给客户。
 
-1.0.0 已完成基础分析、档案保存更新、固定快照恢复及受控进程中断测试。本轮1.1.0完成29项打包与发布自动测试，以及10个虚构客户回复场景检查，详见 [回复验证记录](docs/REPLY-VALIDATION.md)。本轮没有重跑旧档案恢复全套；真实微信、WorkBuddy、截图 OCR 与不同模型环境尚未实测。
+1.0.0 已完成基础分析、档案保存更新、固定快照恢复及受控进程中断测试。1.1.0完成29项打包与发布自动测试，以及10个虚构客户回复场景检查；这些是单次验证端的结果，不是多模型或 CI 自动生成的质量分数。1.1.1 增加高情商边界和触发回归，详见 [回复验证记录](docs/REPLY-VALIDATION.md) 与 [1.1.1 回复验证](docs/REPLY-VALIDATION-1.1.1.md)。本轮没有重跑旧档案恢复全套；真实微信、WorkBuddy、截图 OCR 与不同模型环境尚未实测。
 
 ## 文件
 
@@ -65,4 +67,4 @@ customer-conversation-assistant/
 
 main 和 PR 自动在 Windows、Linux 校验格式、引用、版本并测试打包。推送版本标签后，两平台构建包一致、GitHub draft 附件下载回查通过，才正式发布；失败不会自动放出正式包。已发布版本不覆盖。
 
-构建脚本和测试只存在于仓库外围，不进入 Skill ZIP。[查看运行记录](https://github.com/ssqaq/customer-conversation-assistant/actions/workflows/release.yml)，操作方法见 [发布说明](docs/RELEASING.md)。
+构建脚本和测试只存在于仓库外围，不进入 Skill ZIP。[查看运行记录](https://github.com/ssqaq/customer-conversation-assistant/actions/workflows/release.yml)，操作方法见 [发布说明](docs/RELEASING.md)。仓库公开后不要把真实客户聊天、档案、电话、付款信息或截图发到 issue、PR、讨论区或文档；本地按用户明确要求保留原始资料的规则不变。

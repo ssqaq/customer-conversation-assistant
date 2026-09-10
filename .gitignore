@@ -1,5 +1,8 @@
 dist/
+dist-final-*/
 .validation/
 __pycache__/
 *.pyc
 .venv/
+outputs/
+**/backups/
