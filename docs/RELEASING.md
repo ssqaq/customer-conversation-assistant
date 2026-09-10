@@ -8,8 +8,8 @@
 python -m pip install -r requirements-dev.txt
 python -m unittest discover -s tests -v
 python scripts/release.py validate
-python scripts/release.py build --tag v1.1.1
-python scripts/release.py verify --tag v1.1.1 --archive dist/customer-conversation-assistant-1.1.1.zip --manifest dist/customer-conversation-assistant-1.1.1-manifest.json
+python scripts/release.py build --tag v1.2.0
+python scripts/release.py verify --tag v1.2.0 --archive dist/customer-conversation-assistant-1.2.0.zip --manifest dist/customer-conversation-assistant-1.2.0-manifest.json
 ```
 
 输出已存在时构建拒绝覆盖；重复试验用 `--out` 指定新的工作目录。版本唯一来源为 Skill 的 `metadata.version`，发布前同步 README 下载信息。

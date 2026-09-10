@@ -1,14 +1,14 @@
 # 客户沟通助手
 
-版本：1.1.1。Skill 名称：`customer-conversation-assistant`。
+版本：1.2.0。Skill 名称：`customer-conversation-assistant`。
 
 给 Codex 提供客户聊天、文件或截图，整理客户情况、主要顾虑、当前进展、下一步待办，并准备可直接使用的回复。适用于销售、咨询、项目合作和售后等跨行业客户沟通。
 
-1.1.1 增加“高情商”触发和明确规则：先接住具体问题，再讲事实和下一步，不靠夸赞、长篇安慰或额外承诺显得客气。保留1.1.0的自然回复：少套话、回应具体问题，按微信或邮件调整语气；保留数字、条件和真实处理状态。
+1.2.0 增加输出模式锁定、截图和微信合并转发的归属规则，并升级 GitHub Actions。1.1.1 的“高情商”规则仍保留：先接住具体问题，再讲事实和下一步，不靠夸赞、长篇安慰或额外承诺显得客气。
 
 ## 安装
 
-1. 从 [v1.1.1 下载页](https://github.com/ssqaq/customer-conversation-assistant/releases/tag/v1.1.1) 下载 `customer-conversation-assistant-1.1.1.zip` 并解压。
+1. 从 [v1.2.0 下载页](https://github.com/ssqaq/customer-conversation-assistant/releases/tag/v1.2.0) 下载 `customer-conversation-assistant-1.2.0.zip` 并解压。
 2. 将完整的 `customer-conversation-assistant` 文件夹放入 Codex 用户级 Skill 目录：
    - Windows：`%USERPROFILE%\.codex\skills\`
    - macOS / Linux：`~/.codex/skills/`
@@ -50,7 +50,7 @@ $customer-conversation-assistant 把下面这段客户回复改得少点AI味，
 
 需要使用者提供当前环境能够读取的材料。此 Skill 不自带微信自动读取、WorkBuddy 连接或 OCR 服务，不承诺跨会话自动记忆。回复草稿默认交给使用者，不自动发送给客户。
 
-1.0.0 已完成基础分析、档案保存更新、固定快照恢复及受控进程中断测试。1.1.0完成29项打包与发布自动测试，以及10个虚构客户回复场景检查；这些是单次验证端的结果，不是多模型或 CI 自动生成的质量分数。1.1.1 增加高情商边界和触发回归，详见 [回复验证记录](docs/REPLY-VALIDATION.md) 与 [1.1.1 回复验证](docs/REPLY-VALIDATION-1.1.1.md)。本轮没有重跑旧档案恢复全套；真实微信、WorkBuddy、截图 OCR 与不同模型环境尚未实测。
+1.0.0 已完成基础分析、档案保存更新、固定快照恢复及受控进程中断测试。1.1.0完成29项打包与发布自动测试，以及10个虚构客户回复场景检查；这些是单次验证端的结果，不是多模型或 CI 自动生成的质量分数。1.1.1 增加高情商边界和触发回归，1.2.0 增加输出模式、截图和合并转发回归设计，详见 [回复验证记录](docs/REPLY-VALIDATION.md)、[1.1.1 回复验证](docs/REPLY-VALIDATION-1.1.1.md) 与 [1.2.0 验证计划](docs/REPLY-VALIDATION-1.2.0.md)。真实微信、WorkBuddy、截图 OCR 和多模型效果仍需按新计划实测。
 
 ## 文件
 
